@@ -1,0 +1,91 @@
+      /*Paleta de colores
+.color1 { #198754 };
+.color2 { #789048 };
+.color3 { #c0d860 };
+.color4 { #f0f0d8 };
+.color5 { #604848 };*/
+
+/*Header - Footer*/
+
+.titulo1 {
+  font-weight: bolder;
+  color:#f0f0d8;
+  padding-left: 10px;
+}
+
+.fondo1 {
+  background-color: #198754;
+}
+
+/*Boton Indice*/
+
+.text-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnIndex {
+  background-color: #604848;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 25px;
+  color: #f0f0d8;
+  border-radius: 35px;
+}
+
+.btnIndex:hover {
+  border-color: #33381F;
+  background-color: #f0f0d8;
+  
+}
+
+/*Formulario*/
+
+.titulo2 {
+    font-weight: bolder;
+    color:#789048;
+    padding-left: 10px;
+  }
+
+label {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #604848;
+}
+
+input, select, button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #604848;
+    border-radius: 5px;
+    background-color: #f0f0d8;
+    color: #333; 
+    outline: none;
+}
+
+button {
+    background-color: #198754;
+    color: #ecf0f1; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0d860;
+    color: #604848; 
+}
+
+hr {
+    border: 1px solid #3498db;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#resultado {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #789048;
+    font-weight: bold;
+}
+

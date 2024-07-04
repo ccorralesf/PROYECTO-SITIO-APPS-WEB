@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>reto3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--hoja CSS personalizada-->
+    <link rel="stylesheet" href="css/reto3.css">
+    <!--favicon-->
+    <link rel="icon" href="imagenes/favicon.png">
+
+</head>
+  
+  <body>
+    <!--Header-->
+    <header class="container-fluid fondo1 pt-3 pb-3">
+        <h1 class="titulo1"> Ucenfotec</h1>
+        <h1 class="text-center titulo1"> Fundamentos de Programación Web - DIWEB-07</h1>
+    </header>
+
+    <!--Boton Indice-->
+    <section class="container-fluid">
+      <div class="text-right">
+          <a href="index.html" class="btn btnIndex mb-2"><i></i> Indice </a>
+      </div>
+  </section>
+
+   <!--Secciones-->
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="text1 col-md-6 col-lg-6">
+                <h1 class="display-3 pt-3">Conozca más sobre nuestras actividades</h1>
+                <h2>¡Reserva ya!</h2>
+                <p class="text-left mt-5">Crea memorias inolvidables con distintas aventuras en nuestro hotel, <br>desde las actividades más extremas como viajar por las alturas del bosque,<br> hasta las más interesantes caminatas por nuestros senderos.</p>
+                <h5 class="pt-3">Seleccione el tipo de actividad:</h5>
+            
+                <!-- aquí va el control select interactivo -->   
+                <select id="opciones" class="formato1 cursor mt-5" onchange="menu()">
+                    <option value="">Ninguno</option>
+                    <option value="A">Caminata Observación de Aves</option>
+                    <option value="B">Caminata Nocturna</option>
+                    <option value="C">Cabalgata</option>
+                    <option value="D">Cuadraciclos</option>
+                    <option value="E">Canopy / Zipline</option>
+                </select>
+            </div>
+            
+            <div class="col-md-6 col-lg-6">
+                <!-- Aquí va la imagen -->
+                <img src="imagenes/reto3Banner.png" class="img-fluid" alt="reto3Banner">
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer class="container-fluid titulo1 fondo1 pt-3 pb-3">
+        <h2 class="text-center"> Derechos Reservados</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- libreria Lottie JS-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+    <!-- libreria desplegables  js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- aqui va la programacion  -->
+     <script src="js/reto3.js"></script>
+
+  </body>
+</html>
+

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>reto10</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--hoja CSS personalizada-->
+    <link rel="stylesheet" href="css/reto10.css">
+    <!--favicon-->
+    <link rel="icon" href="imagenes/favicon.png">
+</head>
+  
+  <body>
+    <!--Header-->
+    <header class="container-fluid fondo1 pt-3 pb-3">
+        <h1 class="titulo1"> Ucenfotec</h1>
+        <h1 class="text-center titulo1"> Fundamentos de Programación Web - DIWEB-07</h1>
+    </header>
+
+    <!--Boton Indice-->
+    <section>
+      <div class="text-right">
+          <a href="index.html" class="btn btnIndex mb-2"><i></i> Indice </a>
+      </div>
+  </section>
+
+  <!--Secciones-->
+
+  <section class="container-fluid">
+    <div class="container">
+        <h1 class="titulo2">Guias y Choferes registrados</h1>
+        <div class="pt-3"></div>
+        <form id="buscadorForm">
+            <div class="form-group">
+                <label for="cedula">Escribir la cédula:</label>
+                <input type="text" id="cedula" class="form-control" placeholder="NO poner guiones en la cédula" required>
+            </div>
+            <button type="submit" class="btn btn-success btn-lg hover">Buscar</button>
+            <button class="btn btn-success btn-lg hover" onclick="borrar()">Borrar</button>
+        </form>
+        <!--resultados-->
+        <div id="resultado" class="container"></div>
+    </div>
+
+  </section>
+
+    <!--Footer-->
+    <footer class="container-fluid titulo1 fondo1 pt-3 pb-3">
+        <h2 class="text-center"> Derechos Reservados</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/reto10.js"></script>
+    <!-- libreria desplegables -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>
+
