@@ -1,0 +1,46 @@
+      /*Paleta de colores
+.color1 { #198754 };
+.color2 { #789048 };
+.color3 { #c0d860 };
+.color4 { #f0f0d8 };
+.color5 { #604848 };*/
+
+/*Header - Footer*/
+
+.titulo1 {
+  font-weight: bolder;
+  color:#f0f0d8;
+  padding-left: 10px;
+}
+
+.fondo1 {
+  background-color: #198754;
+}
+
+/*Secciones*/
+
+.titulo2{
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+.fondo2 {
+  background-color: #604848;
+}
+
+/*contenido principal*/
+
+#container_principal {
+    width: 1600px;
+    height: 616px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.fondo3 {
+    background-color: #f0f0d8;
+}
+
+
